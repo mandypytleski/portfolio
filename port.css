@@ -240,6 +240,23 @@
   text-decoration: underline;
 }
 
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 80vh; /* Keeps it vertically centered */
+  background-color: #f9f9f9;
+}
+
+.resume embed {
+  width: 80%;
+  height: 90vh;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 @media (max-width: 768px) {
     .about-section {
         flex-direction: column;
@@ -259,4 +276,6 @@
         flex-direction: column;
         gap: 10px;
     }
+	
+	
 }

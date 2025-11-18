@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Kanit:200,300,500');
+
+body {
+	background-color: #e2e2e2;
+	font-size: 16px;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 200;
+	color: #363636;
+}
+
+p {
+	line-height: 140%;
+}
+
+header {
+	background-color: #fff;
+	width: 100%;
+}
+
+#header-content {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 130px;
+	position: relative;
+}
+
+#social-icons{
+	position: absolute;
+	right: 0;
+	top: 38px;
+}
+
+#social-icons a{
+	margin-left: 10px;
+}
+
+nav {
+	background-color: #000;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+nav ul {
+	display: block;
+	padding: 14px 0 16px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	padding: 10px 30px 5px;
+}
+
+nav a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #acacac;
+	color: #000;
+	border-bottom: 7px solid #e50069;
+}
+
+#wrapper {
+	width: 100%;
+	background-color: #fff;
+}
+
+.grey-box {
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: #e2e2e2;
+	padding: 80px 200px;
+}
+
+.grey-box p {
+	font-size: 18px;
+	line-height: 200%;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: 500;
+	border-bottom: 1px solid #c2c2c2;
+	margin-bottom: 14px;
+}
+
+h2 {
+	font-weight:500;
+	font-size: 60px;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	bottom: 40%;
+}
+
+#bg-image1 {
+  	background-image: url("../images/mannequins.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#gender {
+	background-image:url(../images/gender-bg.jpg);
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#color {
+	background-image:url(../images/color-bg.jpg);
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+#age {
+	background-image:url(../images/age-bg.jpg);
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#gender, #color, #age {
+	min-height: 400px; 
+  	background-position: center;
+}
+
+#bg-image1, #gender, #color, #age {
+  background-size: cover;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	font-size: 13px;
+	text-align:center;
+	padding: 20px;
+}

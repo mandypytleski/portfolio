@@ -1,0 +1,123 @@
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-regular {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html{
+    background-image: url(/images/background.png);
+    background-repeat: repeat;
+}
+
+#wrapper{
+    background-color: white;
+    border-radius: 15px;
+    margin: 2em;
+    padding: 1em;
+    border: 3px solid #5f1329;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    padding: 0.5em;
+    flex: 0 1 auto;
+    min-width: fit-content;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    padding-left: 1em;
+    font-size: 0.8em;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+nav a, label{
+    text-decoration: none;
+    color: black;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav a:hover, label:hover{
+    color: #5f1329;
+}
+
+.logo{
+    height: 3em;
+}
+
+footer{
+    background-color: #5f1329;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.5em;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    max-width: 10%;
+}
+
+.footer-logo{
+    height: 4em;
+    margin: 1em;
+    margin-bottom: 0;
+    filter: invert(100%);
+}
+
+.copyright{
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.footer-column a{
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 0.8em;
+    margin: 0.2em;
+    text-decoration: none;
+}
+
+.footer-column a:hover{
+    color: #d9b3c6;
+}
+.footer-column h3{
+    color: white;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}

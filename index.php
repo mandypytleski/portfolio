@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset/css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=MonteCarlo&display=swap" rel="stylesheet">
+    <title>Pytleski Consulting</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+          <?php
+                include "/home/stoutmartech/public_html/users/pytleskia5362/includes/header.php";
+            ?>
+        </header>
+        
+        <main>
+            <h1>Your Digital Strategy Partner</h1>
+            <div class="intro">
+                <img class="intro-image" src="images/me.png">
+                <div class="intro-text">
+                    <h2>Welcome to Pytleski Consulting!</h2>
+                    <p>Hi! I'm Mandy Pytleski! I specialize in helping small businesses and individuals establish a strong online presence through customized website development and digital marketing strategies. With a passion for creativity and a commitment to excellence, I work closely with my clients to understand their unique needs and goals.</p>
+                </div>
+            </div>
+
+            <h2>What I Do</h2>
+            <div class="tabs-section" aria-label="Quick info tabs">
+                <div class="tabs-contents">
+                    <div id="tab-content-1" class="tabs-content" role="tabpanel" aria-labelledby="tab-1">
+                        <h3>Websites</h3>
+                        <p>I create modern, responsive websites that are tailored to each client’s goals. From sleek landing pages to full multi-page sites, I handle everything from layout design and branding to mobile optimization and user experience. I can build custom features, integrate forms or booking systems, and ensure your site loads fast and performs smoothly. Whether you need a fresh design, updates to an existing site, or ongoing maintenance, I provide reliable, polished solutions that help your business stand out online.</p>
+                        <a href="services/websites.html" class="cta-button">Learn More</a>
+                    </div>
+
+                    <div id="tab-content-2" class="tabs-content" role="tabpanel" aria-labelledby="tab-2" hidden>
+                        <h3>Marketing</h3>
+                        <p>I offer strategic marketing services designed to help businesses grow, connect, and stand out. From social media management and content creation to email campaigns and brand messaging, I build marketing plans tailored to your goals and audience. I focus on creating consistent, engaging content that strengthens your brand identity and drives real results. Whether you need help launching a new campaign, boosting online visibility, or developing a long-term strategy, I provide creative, reliable solutions that make your business more memorable and impactful.</p>
+                        <a href="services/marketing.html" class="cta-button">Learn More</a>
+                    </div>
+                    <div class="tab-list" role="tablist" aria-orientation="vertical">
+                        <button id="tab-1" class="tab-button" role="tab" aria-selected="true" aria-controls="tab-content-1">
+                            <img class="tab-icon" src="images/website.png" alt="Website Tab">
+                        </button>
+
+                        <button id="tab-2" class="tab-button" role="tab" aria-selected="false" aria-controls="tab-content-2">
+                            <img class="tab-icon" src="images/marketing.png" alt="Marketing Tab">
+                        </button>
+                    </div> 
+                </div>
+            </div>
+
+            <br>
+            <h2>Learn More</h2>
+            <div class="cards-container">
+                <div class="card">
+                    
+                    <h3>Portfolio</h3>
+                    <p>Want to see the kind of work I create? Explore my portfolio to find real examples of the websites, designs, and marketing projects I’ve completed. Each piece shows my style, attention to detail, and focus on clean, modern design. Whether you're looking for inspiration or want to understand what I can build for you, my portfolio is the best place to start. Take a look and see what’s possible!</p>
+                    <a href="portfolio/portfolio.html" class="cta-button">Portfolio</a>
+                </div>
+
+                <div class="card">
+                    <h3>About Me</h3>
+                    <p>Want to learn more about who I am and what I do? Visit my About Me page to get a closer look at my background, my design style, and the passion behind my work. It’s the best place to see what inspires me, how I approach projects, and why I love helping people bring their ideas to life. Get to know me better and see what drives the creativity behind every project!</p>
+                    <a href="about/about.html" class="cta-button">About Me</a>
+                </div>
+            </div>
+
+            <section class="cta">
+                <?php
+                    include "/home/stoutmartech/public_html/users/pytleskia5362/includes/cta.php";
+                ?> 
+            </section>
+
+
+        </main>
+    </div>
+
+        <br>
+
+        <footer>
+          <?php
+            include "/home/stoutmartech/public_html/users/pytleskia5362/includes/footer.php";
+        ?>    
+        </footer>
+    
+</body>
+<script src="javascript/script.js"></script>
+
+</html>

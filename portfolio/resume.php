@@ -31,8 +31,8 @@
 
         <footer>
             <?php
-            include "/home/stoutmartech/public_html/users/pytleskia5362/includes/footer.php";
-        ?>    
+                include "/home/stoutmartech/public_html/users/pytleskia5362/includes/footer.php";
+            ?>    
         </footer>
     
 </body>

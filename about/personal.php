@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset/css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=MonteCarlo&display=swap" rel="stylesheet">
+    <title>Pytleski Consulting: Personal</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <?php
+                include "/home/stoutmartech/public_html/users/pytleskia5362/includes/header.php";
+            ?>
+        </header>
+        
+        <main>
+            <h1>Really Get to Know Me</h1>
+            <img class="personal-photo" src="images/horns.jpg" alt="Personal Photo">
+            <p>I think it's really important to feel like you know the person you are working with which is why I included this section! Feel free to read all about my hobbies, family, and learn more about me!</p>
+
+            <h2>Important People in My Life</h2>
+            <div class="tabs-section" aria-label="Quick info tabs">
+                <div class="tabs-contents">
+                    <div id="tab-content-1" class="tabs-content" role="tabpanel" aria-labelledby="tab-1">
+                        <img class="content-image" src="images/family.JPEG" alt="Family Photo">
+
+                        <p>My family has always been one of my biggest sources of support and motivation. I grew up surrounded by people who encouraged creativity, hard work, and kindness—values that continue to shape who I am today. Whether we're celebrating milestones, sharing meals, or just spending time together, they’ve played a major role in helping me become the person and professional I am. Their encouragement is a big part of why I chase new goals with confidence and purpose.</p>
+                        
+                    </div>
+
+                    <div id="tab-content-2" class="tabs-content" role="tabpanel" aria-labelledby="tab-2" hidden>
+                        <img class="content-image" src="images/friends.JPEG" alt="Friends Photo">
+                        <p>My friends are a huge part of my life and have always been the people who bring energy, laughter, and balance into everything I do. They’re the ones who push me to try new things, cheer me on during big milestones, and keep life fun even when things get stressful. I’m grateful to have a circle that is supportive, honest, and always up for an adventure. Their influence has helped me grow both personally and professionally, and I’m lucky to have them in my corner.</p>
+                       
+                    </div>
+                    <div id="tab-content-3" class="tabs-content" role="tabpanel" aria-labelledby="tab-3" hidden>
+                        <img class="content-image" src="images/ian.JPEG" alt="Boyfriend Photo">
+                        <p>My boyfriend has been an incredible source of encouragement and stability in my life. He celebrates my wins, supports my goals, and shows up for me in all the little day-to-day moments that matter. Whether I’m working on a new project, taking on something challenging, or just navigating busy weeks, he’s always there with patience, humor, and genuine support. I’m grateful to have someone who believes in me so consistently and who inspires me to keep growing.</p>
+                        
+                    </div>
+                    <div id="tab-content-4" class="tabs-content" role="tabpanel" aria-labelledby="tab-4" hidden>
+                        <img class="content-image" src="images/sadie.JPEG" alt="Cat Photo">
+                        <p>My cat is the little ball of chaos and comfort that keeps life interesting. Whether he’s supervising my work from the corner of my desk, demanding attention at exactly the wrong times, or curling up beside me after a long day, he adds so much personality to my routine. He’s a constant source of entertainment, motivation, and cozy companionship—and definitely the real boss of the household.</p>                        
+                    </div>
+                    <div class="tab-list" role="tablist" aria-orientation="vertical">
+                        <button id="tab-1" class="tab-button" role="tab" aria-selected="true" aria-controls="tab-content-1">
+                            <p class=tab-label>Family</p>
+                        </button>
+                        <button id="tab-2" class="tab-button" role="tab" aria-selected="false" aria-controls="tab-content-2">
+                            <p class=tab-label>Friends</p>                        </button>
+                        <button id="tab-3" class="tab-button" role="tab" aria-selected="false" aria-controls="tab-content-3">
+                            <p class=tab-label>Boyfriend</p>                        </button>
+                        <button id="tab-4" class="tab-button" role="tab" aria-selected="false" aria-controls="tab-content-4">
+                        <p class=tab-label>Cat</p>                        </button>
+                    </div> 
+                </div>
+            </div>
+            <br>
+            <br>
+            <h2>Hobbies and Interests</h2>
+
+            <div class="intro-reverse">
+                
+                <img class="intro-image" src="images/hiking.jpg" alt="Hiking Photo">
+                <div class="intro-text">
+                    <h3>Hiking</h3>
+                    <p>Hiking has always been a favorite pastime of mine. There's something incredibly refreshing about being surrounded by nature, breathing in the fresh air, and taking in the beautiful landscapes. Whether it's a challenging trail or a leisurely walk through the woods, hiking allows me to disconnect from the hustle and bustle of daily life and reconnect with myself. It's also a great way to stay active and explore new places.</p>
+                </div>
+            </div>
+
+            <div class="intro">
+                <img class="intro-image" src="images/crossstitch.jpg" alt="Sewing Photo">
+                <div class="intro-text">
+                    <h3>Sewing</h3>
+                    <p>Sewing is a creative outlet that I truly enjoy. There's something satisfying about taking a piece of fabric and transforming it into something beautiful and functional. Whether I'm working on a simple project or a more complex design, sewing allows me to express my creativity and attention to detail. It's also a relaxing activity that helps me unwind and focus my mind. Plus, I love the sense of accomplishment that comes with completing a sewing project!</p>
+                </div>
+            </div>
+
+            <div class="intro-reverse">
+                <img class="intro-image" src="images/minecraft.JPEG" alt="Travel Photo">
+                <div class="intro-text">
+                    <h3>Games</h3>
+                    <p>Playing video games has always been one of my favorite ways to relax. My favorite game is Minecraft and I typically play on PC or Playstation. My roommate and I actually have a world that we have played on for the entire time that we've known each other! The map shown is from that world, showing off three years of our work.</p>
+                </div>
+            </div>
+            
+            <section class="cta">
+                <?php
+                    include "/home/stoutmartech/public_html/users/pytleskia5362/includes/cta.php";
+                ?> 
+            </section>
+            </div>
+        </main>
+    </div>
+
+        <br>
+
+        <footer>
+        <?php
+            include "/home/stoutmartech/public_html/users/pytleskia5362/includes/footer.php";
+        ?>    
+    </footer>
+    
+</body>
+<script src="javascript/script.js"></script>
+
+</html>

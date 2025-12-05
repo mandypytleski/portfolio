@@ -133,7 +133,7 @@ nav a:hover, label:hover{
 
 .intro-image {
     flex: 0 0 40%;
-    max-width: 11em;
+    max-width: 20em;
     height: auto;
     border-radius: 10px;
     margin-right: 1em;
@@ -231,7 +231,6 @@ footer{
     border-radius: 10px;
 }
 
-/* content area */
 .tabs-contents {
     flex: 1;
     padding: 1em;
@@ -252,9 +251,26 @@ footer{
     justify-content: center;
 }
 
+.content-image {
+    display: block;
+    width: 50%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top;
+    margin: 1em auto;
+    border-radius: 10px;
+    border: 3px solid #5f1329;
+    float: left;
+    margin-right: 1em;
+}
+
+
 .tabs-content h2, .tabs-content p {
     text-align: left;
 }
+
+
 
 .tab-list {
     display: flex;
@@ -284,10 +300,22 @@ footer{
     object-fit: contain;
 }
 
+.tab-label {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #5f1329;
+    margin: 1em 1em;
+}
+
 .tab-button[aria-selected="true"] {
     background: #5f1329;
     color: #fff;
     border-color: #5f1329;
+}
+
+.tab-button[aria-selected="true"] .tab-label {
+    color: #fff;
 }
 
 .tab-button[aria-selected="true"] .tab-icon {
@@ -447,6 +475,16 @@ footer{
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     text-align: center;
+}
+
+.personal-photo {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin: 1em auto;
+    border-radius: 10px;
+    border: 3px solid #5f1329;
 }
 
 @media (max-width: 768px) {

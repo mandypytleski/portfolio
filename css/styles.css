@@ -590,6 +590,7 @@ footer{
 
 .masonry-info {
     padding: 0.5em 0;
+    text-align: center;
 }
 
 
@@ -616,15 +617,21 @@ footer{
 
 /* Carousel card: center media, remove white gap, use a consistent aspect ratio */
 .carousel-card {
-  flex: 0 0 calc(33.333% - 0.5rem);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;          /* hide any overflow when scaling */
-  background: transparent;   /* remove white background */
-  border-radius: 8px;        /* keep rounded corners */
-  opacity: 0.5;
-  transition: all 0.3s ease;
+    flex: 0 0 calc(33.333% - 0.5rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;          /* hide any overflow when scaling */
+    background: transparent;   /* remove white background */
+    border-radius: 8px;        /* keep rounded corners */
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.card-info {
+    padding: 1rem;
+    text-align: center;
 }
 
 /* highlighted / centered card */

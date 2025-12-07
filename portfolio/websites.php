@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset/css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=MonteCarlo&display=swap" rel="stylesheet">
+    <title>Pytleski Consulting: Websites Portfolio</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <?php
+                include "/home/stoutmartech/public_html/users/pytleskia5362/includes/header.php";
+            ?>
+        </header>
+        
+        <main>
+            <h1>Website Portfolio</h1>
+            <div class="masonry-portfolio">
+                <div class="masonry-grid">
+                    <div class="masonry-item wide">
+                        <a href="https://grtplains.com/"><img src="images/gp.png" alt="Great Plains Website"></a>
+                        <div class="masonry-info">
+                            <h3>Great Plains Transportation</h3>
+                            <p>This site is a project I'm very proud of. They already had a website started to I had to make sure and stay true to their style while adding my own taste to it. I added the filtered FAQ section to help organize their FAQ's onto one page. I also designed and implemented the Contact page. I adjusted headings to help with SEO performance as well. </p>
+                        </div>
+                    </div>
+
+                    <div class="masonry-item tall">
+                        <a href="/index.php"><img src="images/portfolio.png" alt="Portfolio Website"></a>
+                        <div class="masonry-info">
+                            <h3>This Site!</h3>
+                            <p>This site is one of my favorite projects I've worked on! I designed and implemented this site from scratch. Everything from the color scheme, code, and functionality was done completely by me.</p>
+                        </div>
+                    </div>
+
+                    <div class="masonry-item">
+                        <a href="https://getpartnersfunding.com/"><img src="images/pf.png" alt="Partners Funding"></a>
+                        <div class="masonry-info">
+                            <h3>Partners Funding</h3>
+                            <p>This site was similar to the Great Plains one, but needed a bit extra organization. I worked more with HubSpot on the headers and filters, and created custom modules to be reused again later on. I also made sure to stay true to their style and keeping it similar but different from Great Plains.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-portfolio">
+                <h1>Other Programming Projects Projects</h1>
+                <p>Being well rounded in programming is extremely important so here are some other examples of projects I have worked on outside of web development.</p>
+                <div class="carousel-container">
+                    <button class="carousel-btn left" aria-label="Previous">&lt;</button>
+                    <div class="carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-card">
+                                <img src="images/sudoku.png" alt="Sudoku Solver">
+                                <div class="card-info">
+                                    <h3>Sudoku Solver</h3>
+                                    <p>A Java program that solves Sudoku puzzles using a backtracking algorithm. It takes in a document with grid grid size and numbers to fill the board. It then fills in the missing numbers while adhering to Sudoku rules.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-card">
+                                <img src="images/database.png" alt="Sudoku Solver">
+                                <div class="card-info">
+                                    <h3>Project Database</h3>
+                                    <p>A mySQL Database designed to help organize projects for my Minecraft world. It includes a section for each build, their locations, materials needed, and so much more.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-card">
+                                <img src="images/si.png" alt="Sudoku Solver">
+                                <div class="card-info">
+                                    <h3>SI Scheduler - WIP</h3>
+                                    <p>Scheduler tool for the SI program at UW-Stout. This program reads in classes from a database and adds them onto the schedule. You can then assign SI's to each classes depending on their availability. You can also select the auto-assign button to automatically assign one SI to each class recursively and backtrack until each class is full.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <button class="carousel-btn right" aria-label="Next">&gt;</button>
+
+                </div>
+            </div>
+
+            <section class="cta">
+                <?php
+                    include "/home/stoutmartech/public_html/users/pytleskia5362/includes/cta.php";
+                ?> 
+            </section>
+        </main>
+    </div>
+
+        <br>
+
+        <footer>
+        <?php
+            include "/home/stoutmartech/public_html/users/pytleskia5362/includes/footer.php";
+        ?>    
+    </footer>
+    
+</body>
+<script src="javascript/script.js"></script>
+
+</html>

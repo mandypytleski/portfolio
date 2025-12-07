@@ -169,3 +169,4 @@ document.addEventListener('DOMContentLoaded', () => {
   // initial start
   initCarousel(true);
 });
+

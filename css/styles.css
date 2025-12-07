@@ -568,3 +568,104 @@ footer{
     margin: 0.7em 0 1em;
 }
 
+.masonry-grid {
+    column-count: 3;
+    column-gap: 1.5em;
+    margin: 2em auto;
+}
+
+.masonry-item {
+    break-inside: avoid;
+    margin-bottom: 1.5em;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.masonry-item img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.masonry-info {
+    padding: 0.5em 0;
+}
+
+
+/* Carousel */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.carousel {
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 0.75rem;
+    transition: transform 400ms ease;
+    will-change: transform;
+}
+
+/* Carousel card: center media, remove white gap, use a consistent aspect ratio */
+.carousel-card {
+  flex: 0 0 calc(33.333% - 0.5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;          /* hide any overflow when scaling */
+  background: transparent;   /* remove white background */
+  border-radius: 8px;        /* keep rounded corners */
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+/* highlighted / centered card */
+.carousel-card.active,
+.carousel-card.is-center {
+  opacity: 1;
+  transform: scale(1);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+/* Make images and videos fill the card area and stay centered */
+.carousel-card img,
+.carousel-card video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* buttons */
+.carousel-btn {
+    background: #fff;
+    border: 1px solid #5f1329;
+    color: #5f1329;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.carousel-btn:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
+
+/* responsive: 2 cards on tablet, 1 card on mobile */
+@media (max-width: 992px) {
+    .carousel-card { flex: 0 0 calc(50% - 0.5rem); }
+}
+@media (max-width: 560px) {
+    .carousel-card { flex: 0 0 100%; }
+}
+

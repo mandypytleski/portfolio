@@ -21,89 +21,87 @@
         
         <main>
 
-    <h1>Website Services</h1>
-    <p>Every company needs something different. These are some of the things I can offer. We can mix and match to find what works best for your company!</p>
-    <div class="services-grid">
+            <h1>Website Services</h1>
+            <p>Every company needs something different. These are some of the things I can offer. We can mix and match to find what works best for your company!</p>
+                <div class="services-grid">
 
-        <div class="service-card">
-            <h2>✨ Full Website Builds</h2>
-            <p>I build modern, responsive websites designed around your brand and business goals.</p>
-            <ul>
-                <li>Custom design</li>
-                <li>Mobile friendly</li>
-                <li>SEO ready</li>
-                <li>Fast + secure</li>
-            </ul>
-        </div>
+                    <div class="service-card">
+                        <h2>✨ Full Website Builds</h2>
+                        <p>I build modern, responsive websites designed around your brand and business goals.</p>
+                        <ul>
+                            <li>Custom design</li>
+                            <li>Mobile friendly</li>
+                            <li>SEO ready</li>
+                            <li>Fast + secure</li>
+                        </ul>
+                    </div>
 
-        <div class="service-card accent">
-            <h2>♻️ Website Refresh</h2>
-            <p>If your site feels outdated, I completely redesign the look and structure—without starting over.</p>
-            <ul>
-                <li>Modern styles</li>
-                <li>Better UX</li>
-                <li>Updated branding</li>
-                <li>New features</li>
-            </ul>
-        </div>
+                    <div class="service-card accent">
+                        <h2>♻️ Website Refresh</h2>
+                        <p>If your site feels outdated, I completely redesign the look and structure—without starting over.</p>
+                        <ul>
+                            <li>Modern styles</li>
+                            <li>Better UX</li>
+                            <li>Updated branding</li>
+                            <li>New features</li>
+                        </ul>
+                    </div>
 
-        <div class="service-card accent">
-            <h2>📈 SEO Optimization</h2>
-            <p>Improve search visibility and reach customers already looking for what you offer.</p>
-            <ul>
-                <li>Metadata setup</li>
-                <li>Keyword research</li>
-                <li>Local SEO</li>
-                <li>Page speed</li>
-            </ul>
-        </div>
+                    <div class="service-card accent">
+                        <h2>📈 SEO Optimization</h2>
+                        <p>Improve search visibility and reach customers already looking for what you offer.</p>
+                        <ul>
+                            <li>Metadata setup</li>
+                            <li>Keyword research</li>
+                            <li>Local SEO</li>
+                            <li>Page speed</li>
+                        </ul>
+                    </div>
 
-        <div class="service-card">
-            <h2>🔒 Maintenance & Support</h2>
-            <p>Monthly website management so you never worry about updates or technical issues.</p>
-            <ul>
-                <li>Backups</li>
-                <li>Plugin updates</li>
-                <li>Security monitoring</li>
-                <li>Content edits</li>
-            </ul>
-        </div>
-         <div class="service-card">
-            <h2>📊 Analytics & Reporting</h2>
-            <p>Understand how your website performs and make data-driven decisions.</p>
-            <ul>
-                <li>Traffic analysis</li>
-                <li>Conversion tracking</li>
-                <li>User behavior insights</li>
-                <li>Monthly reports</li>
-            </ul>
-        </div>
+                    <div class="service-card">
+                        <h2>🔒 Maintenance & Support</h2>
+                        <p>Monthly website management so you never worry about updates or technical issues.</p>
+                        <ul>
+                            <li>Backups</li>
+                            <li>Plugin updates</li>
+                            <li>Security monitoring</li>
+                            <li>Content edits</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h2>📊 Analytics & Reporting</h2>
+                        <p>Understand how your website performs and make data-driven decisions.</p>
+                        <ul>
+                            <li>Traffic analysis</li>
+                            <li>Conversion tracking</li>
+                            <li>User behavior insights</li>
+                            <li>Monthly reports</li>
+                        </ul>
+                    </div>
 
-        <div class="service-card accent">
-            <h2>🛒 E-commerce Solutions</h2>
-            <p>Set up or optimize your online store for smooth transactions and growth.</p>
-            <ul>
-                <li>Product catalog setup</li>
-                <li>Payment integration</li>
-                <li>Shopping cart optimization</li>
-                <li>Secure checkout</li>
-            </ul>
-        </div>
+                    <div class="service-card accent">
+                        <h2>🛒 E-commerce Solutions</h2>
+                        <p>Set up or optimize your online store for smooth transactions and growth.</p>
+                        <ul>
+                            <li>Product catalog setup</li>
+                            <li>Payment integration</li>
+                            <li>Shopping cart optimization</li>
+                            <li>Secure checkout</li>
+                        </ul>
+                    </div>
 
-    </div>
-<section class="cta">
-                <?php
-                    include "/home/stoutmartech/public_html/users/pytleskia5362/includes/cta.php";
-                ?> 
-            </section>
-</main>
-
-
+                </div>
+                <section class="cta">
+                    <?php
+                         include "/home/stoutmartech/public_html/users/pytleskia5362/includes/cta.php";
+                    ?> 
+                </section>      
+        </main>
     </div>
 
-        <br>
+    <br>
 
-        <footer>
+    <footer>
         <?php
             include "/home/stoutmartech/public_html/users/pytleskia5362/includes/footer.php";
         ?>    

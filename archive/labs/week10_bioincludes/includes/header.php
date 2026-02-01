@@ -1,1 +1,0 @@
-<h1>Mandy Pytleski</h1>

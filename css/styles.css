@@ -52,9 +52,10 @@ p{
     background-color: white;
     border-radius: 15px;
     margin: 3em;
-    margin-bottom: -3em;
+    margin-bottom: -4em;
     padding: 1em;
     border: 3px solid #5f1329;
+    padding-bottom: 2em;
 }
 
 nav{
@@ -178,6 +179,7 @@ footer{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 2em;
 }
 
 .footer-column{

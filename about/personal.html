@@ -8,15 +8,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=MonteCarlo&display=swap" rel="stylesheet">
-    <title>Pytleski Consulting: Personal</title>
+    <title>Mandy Pytleski: Personal</title>
 </head>
 
 <body>
     <div id="wrapper">
         <header>
-            <?html
-                include "/home/stoutmartech/public_html/users/pytleskia5362/includes/header.html";
-            ?>
+            <nav>
+                <ul>
+                    <!-- Logo -->
+                    <li>
+                        <a href="/index.html">
+                            <img class="logo" src="/images/logo.png" alt="logo">
+                        </a>
+                    </li>
+                    <!-- Portfolio Dropdown -->
+                    <li class="dropdown">
+                        <a href="/portfolio/portfolio.html" class="dropbtn">Portfolio</a>
+                        <div class="dropdown-content">
+                            <a href="/portfolio/compsci.html">Computer Science</a>
+                            <a href="/portfolio/marketing.html">Marketing</a>
+                            <a href="/portfolio/resume.html">Resume</a>
+                        </div>
+                    </li>
+
+                    <!-- About Dropdown -->
+                    <li class="dropdown">
+                        <a href="/about/about.html" class="dropbtn">About</a>
+                        <div class="dropdown-content">
+                            <a href="/about/background.html">Background</a>
+                            <a href="/about/personal.html">Personal</a>
+                        </div>
+                    </li>
+
+                    <!-- Contact -->
+                    <li>
+                        <a href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
         </header>
         
         <main>

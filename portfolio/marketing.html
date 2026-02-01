@@ -14,9 +14,52 @@
 <body>
     <div id="wrapper">
         <header>
-            <?php
-                include "/home/stoutmartech/public_html/users/pytleskia5362/includes/header.php";
-            ?>
+            <nav>
+    <ul>
+        <!-- Services Dropdown -->
+        <li class="dropdown">
+            <a href="/services/services.html" class="dropbtn">Services</a>
+            <div class="dropdown-content">
+                <a href="/services/websites.html">Websites</a>
+                <a href="/services/marketing.html">Marketing</a>
+                <a href="/services/packages.html">Packages</a>
+            </div>
+        </li>
+
+        <!-- Portfolio Dropdown -->
+        <li class="dropdown">
+            <a href="/portfolio/portfolio.html" class="dropbtn">Portfolio</a>
+            <div class="dropdown-content">
+                <a href="/portfolio/websites.html">Websites</a>
+                <a href="/portfolio/marketing.html">Marketing</a>
+                <a href="/portfolio/resume.html">Resume</a>
+            </div>
+        </li>
+
+        <!-- Logo -->
+        <li>
+            <a href="/index.html">
+                <img class="logo" src="/images/logo.png" alt="logo">
+            </a>
+        </li>
+
+        <!-- About Dropdown -->
+        <li class="dropdown">
+            <a href="/about/about.html" class="dropbtn">About</a>
+            <div class="dropdown-content">
+                <a href="/about/background.html">Background</a>
+                <a href="/about/personal.html">Personal</a>
+                <a href="/about/faq.html">FAQ</a>
+            </div>
+        </li>
+
+        <!-- Contact -->
+        <li>
+            <a href="/contact.html">Contact</a>
+        </li>
+    </ul>
+</nav>
+
         </header>
 
         <main>
@@ -56,7 +99,7 @@
                     <button class="carousel-btn left" aria-label="Previous">&lt;</button>
                     <div class="carousel">
                         <div class="carousel-track">
-                            <div class="carousel-card active">
+                            <div class="carousel-card">
                                 <img src="images/before-after.png" alt="Before and After">
                             </div>
                             <div class="carousel-card">
@@ -107,19 +150,43 @@
                 </div>
             </div>
 
-            <section class="cta">
-                <?php
-                    include "/home/stoutmartech/public_html/users/pytleskia5362/includes/cta.php";
-                ?> 
-            </section>
+            
         </main>
     </div>
 
     <footer>
-        <?php
-            include "/home/stoutmartech/public_html/users/pytleskia5362/includes/footer.php";
-        ?>    
-    </footer>
+    <div class="footer-column">
+        <a href="/index.html">
+            <img class="footer-logo" src="/images/logo.png" alt="logo">
+        </a>
+        <p class="copyright">&copy; 2025 Pytleski Consulting.</p>
+    </div>
+
+    <div class="footer-column">
+        <a href="/services/services.html"><h3>Services</h3></a>
+        <a href="/services/websites.html">Websites</a>
+        <a href="/services/marketing.html">Marketing</a>
+        <a href="/services/packages.html">Packages</a>
+    </div>
+
+    <div class="footer-column">
+        <a href="/portfolio/portfolio.html"><h3>Portfolio</h3></a>
+        <a href="/portfolio/websites.html">Websites</a>
+        <a href="/portfolio/marketing.html">Marketing</a>
+        <a href="/portfolio/resume.html">Resume</a>
+    </div>
+
+    <div class="footer-column">
+        <a href="/about/about.html"><h3>About</h3></a>
+        <a href="/about/background.html">Background</a>
+        <a href="/about/personal.html">Personal</a>
+        <a href="/about/faq.html">FAQ</a>
+    </div>
+
+    <div class="footer-column">
+        <a href="/contact.html"><h3>Contact</h3></a>
+    </div>
+</footer>
 
     <script src="javascript/script.js"></script>
 </body>
